@@ -4,7 +4,7 @@
 
   <groupId>com.minlia.cloud.starter</groupId>
   <artifactId>cloud-starter-context</artifactId>
-  <version>2.0.1-SNAPSHOT</version>
+  <version>2.0.0.RELEASE</version>
   <packaging>jar</packaging>
 
   <name>Cloud Starter Context</name>
@@ -21,7 +21,7 @@
       scm:git:https://github.com/minlia-projects/cloud-starter-context.git
     </developerConnection>
     <url>https://github.com/minlia-projects/cloud-starter-context</url>
-    <tag>HEAD</tag>
+    <tag>v2.0.0.RELEASE</tag>
   </scm>
 
   <developers>
