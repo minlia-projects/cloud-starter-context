@@ -12,13 +12,35 @@
   <name>Cloud Starter Context</name>
   <description>Cloud Starter Context</description>
 
-
   <parent>
-    <groupId>org.springframework.boot</groupId>
-    <artifactId>spring-boot-starter-parent</artifactId>
-    <version>2.0.0.RELEASE</version>
-    <relativePath/> <!-- lookup parent from repository -->
+    <groupId>com.minlia.maven</groupId>
+    <artifactId>minlia-pom</artifactId>
+    <version>1.0.0.RELEASE</version>
   </parent>
+
+
+  <scm>
+    <connection>
+      scm:git:https://github.com/minlia-projects/cloud-starter-context.git
+    </connection>
+    <developerConnection>
+      scm:git:https://github.com/minlia-projects/cloud-starter-context.git
+    </developerConnection>
+    <url>https://github.com/minlia-projects/cloud-starter-context</url>
+    <tag>HEAD</tag>
+  </scm>
+
+  <developers>
+    <developer>
+      <name>will</name>
+      <email>will@minlia.com</email>
+      <organization>minlia</organization>
+      <organizationUrl>https://www.minlia.com</organizationUrl>
+    </developer>
+  </developers>
+
+
+
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -28,6 +50,19 @@
 
   </properties>
 
+  <dependencyManagement>
+    <dependencies>
+
+      <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-dependencies</artifactId>
+        <version>2.0.0.RELEASE</version>
+        <scope>import</scope>
+      </dependency>
+
+    </dependencies>
+
+  </dependencyManagement>
   <dependencies>
 
     <dependency>
