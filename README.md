@@ -4,7 +4,7 @@
 
 ## 编译状态  
 
- [![Build Status](https://api.travis-ci.org/minlia-projects/cloud-starter-context.png)](https://travis-ci.org/minlia-projects/cloud-starter-context)
+[![Build Status](https://travis-ci.org/minlia-projects/cloud-starter-context.svg?branch=master)](https://travis-ci.org/minlia-projects/cloud-starter-context)
 
 ## 集成到自已的项目时添加依赖项  
 
