@@ -8,8 +8,10 @@
   <artifactId>cloud-starter-context</artifactId>
   <version>2.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
+
   <name>Cloud Starter Context</name>
   <description>Cloud Starter Context</description>
+
   <scm>
     <connection>
       scm:git:https://github.com/minlia-projects/cloud-starter-context.git
