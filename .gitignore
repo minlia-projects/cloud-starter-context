@@ -25,3 +25,5 @@ nbdist/
 .nb-gradle/
 .DS_Store
 /build/
+pom.xml.releaseBackup
+release.properties
