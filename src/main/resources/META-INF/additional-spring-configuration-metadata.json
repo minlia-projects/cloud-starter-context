@@ -1,0 +1,25 @@
+{
+  "properties": [
+    {
+      "name": "system.context-holder.enabled",
+      "description": "Is static ContextHolder enabled in our application.",
+      "type": "java.lang.Boolean",
+      "defaultValue": true
+    }
+  ],
+  "hints": [
+    {
+      "name": "system.context-holder.enabled",
+      "values": [
+        {
+          "value": "true",
+          "description": "Enable static ContextHolder in our application."
+        },
+        {
+          "value": "false",
+          "description": "Disable static ContextHolder in our application."
+        }
+      ]
+    }
+  ]
+}
