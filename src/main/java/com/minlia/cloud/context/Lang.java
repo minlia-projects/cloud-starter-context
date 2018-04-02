@@ -21,12 +21,11 @@ public class Lang {
   }
 
   public static String get(String key, Object[] arguments, Locale locale) {
-    String result = key;
+    String result ="{{" + key + "}}";
     try {
-      ContextHolder.getContext().getMessage(key, arguments, locale);
+      result=ContextHolder.getContext().getMessage(key, arguments, locale);
     } catch (org.springframework.context.NoSuchMessageException e) {
       log.warn("No translated message found for key: {}", key);
-      result = "{{" + key + "}}";
     }
     return result;
   }
