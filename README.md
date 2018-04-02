@@ -13,11 +13,7 @@
 ```
 
 应用配置项：
-application-dev.properties
 
-```properties
-system.context-holder.enabled=true
-```
 
 application-dev.yml
 ```yaml
@@ -25,4 +21,11 @@ system:
   context-holder:
     enabled: true
 ```
+
+application-dev.properties
+
+```properties
+system.context-holder.enabled=true
+```
+
 
