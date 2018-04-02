@@ -9,36 +9,12 @@
 
   <name>Cloud Starter Context</name>
   <description>Cloud Starter Context</description>
-  <url>https://minlia.com/</url>
-  <inceptionYear>2016</inceptionYear>
-
-
-  <scm>
-    <connection>
-      scm:git:https://github.com/minlia-projects/cloud-starter-context.git
-    </connection>
-    <developerConnection>
-      scm:git:https://github.com/minlia-projects/cloud-starter-context.git
-    </developerConnection>
-    <url>https://github.com/minlia-projects/cloud-starter-context</url>
-    <tag>HEAD</tag>
-  </scm>
-
-  <developers>
-    <developer>
-      <name>will</name>
-      <email>will@minlia.com</email>
-      <organization>minlia</organization>
-      <organizationUrl>https://www.minlia.com</organizationUrl>
-    </developer>
-  </developers>
 
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     <java.version>1.8</java.version>
-
 
   </properties>
 
@@ -85,7 +61,6 @@
 
 
   <profiles>
-
     <profile>
       <id>release</id>
       <activation>
@@ -203,5 +178,32 @@
       <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
     </repository>
   </distributionManagement>
+  <licenses>
+      <license>
+          <name>The Apache Software License, Version 2.0</name>
+          <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      </license>
+  </licenses>
+  <url>https://minlia.com/</url>
+  <inceptionYear>2016</inceptionYear>
+  <scm>
+    <connection>
+      scm:git:https://github.com/minlia-projects/cloud-starter-context.git
+    </connection>
+    <developerConnection>
+      scm:git:https://github.com/minlia-projects/cloud-starter-context.git
+    </developerConnection>
+    <url>https://github.com/minlia-projects/cloud-starter-context</url>
+    <tag>HEAD</tag>
+  </scm>
+
+  <developers>
+    <developer>
+      <name>will</name>
+      <email>will@minlia.com</email>
+      <organization>minlia</organization>
+      <organizationUrl>https://www.minlia.com</organizationUrl>
+    </developer>
+  </developers>
 
 </project>
