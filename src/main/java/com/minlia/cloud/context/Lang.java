@@ -2,7 +2,6 @@ package com.minlia.cloud.context;
 
 import java.util.Locale;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.context.i18n.LocaleContextHolder;
 
 /**
@@ -27,7 +26,7 @@ public class Lang {
       ContextHolder.getContext().getMessage(key, arguments, locale);
     } catch (org.springframework.context.NoSuchMessageException e) {
       log.warn("No translated message found for key: {}", key);
-      result= "{{" + key + "}}";
+      result = "{{" + key + "}}";
     }
     return result;
   }
