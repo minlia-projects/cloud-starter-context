@@ -17,7 +17,7 @@
 </dependency>
 ```
 
-##应用配置项：
+## 应用配置项：
 
 application-dev.yml
 ```yaml
